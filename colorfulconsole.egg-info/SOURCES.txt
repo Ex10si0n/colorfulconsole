@@ -1,0 +1,6 @@
+README.md
+setup.py
+colorfulconsole.egg-info/PKG-INFO
+colorfulconsole.egg-info/SOURCES.txt
+colorfulconsole.egg-info/dependency_links.txt
+colorfulconsole.egg-info/top_level.txt

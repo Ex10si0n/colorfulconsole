@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="color",
+    name="colorfulconsole",
     version="0.0.1",
     author="Ex10si0n",
     author_email="yzb.ex10si0n@icloud.com",

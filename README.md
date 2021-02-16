@@ -1,6 +1,12 @@
 # color.py
 A Python package enable rich text in console output
 
+## Installation
+
+```bash
+pip install colorfulconsole
+```
+
 ## Demo
 ![](screenshot.png)
 
