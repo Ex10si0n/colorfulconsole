@@ -7,6 +7,7 @@ class color:
     def print(text, color='red', bg='default', weight='normal', end='\n'):
         try:
             palette = { 'red': 31, 'green': 32, 'yellow': 33, 'blue': 34, 'magenta': 35, 'cyan': 36, 'r': 31, 'g': 32, 'y': 33, 'b': 34, 'm': 35, 'c': 36 }
+            color_dict[fg_char]
             color = palette[color]
             cstr = ''
 

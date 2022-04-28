@@ -8,7 +8,14 @@ pip install colorfulconsole
 ```
 
 ## Demo
-![](screenshot.png)
+
+Color printer
+
+![](imgs/color.png)
+
+String renderer
+
+![](imgs/render.png)
 
 ## Usage - Methods
 
@@ -25,3 +32,27 @@ cheatsheet for color code
 params:
 - None
 
+### `render.render()`
+
+Render a string in a given foreground and background color.
+The sample pattern is shown below:
+
+    string =
+    +----------------------------------+
+    |                                  |
+    |                                  |
+    +----------------------------------+
+    
+    fg =
+    rgbyrgbyrgbyrgbyrgbyrgbyrgbyrgbyrgby
+    g                                  r
+    b                                  g
+    yrgbyrgbyrgbyrgbyrgbyrgbyrgbyrgbyrgb
+    
+    bg =
+    ++++++++++++++++++++++++++++++++++++
+    +cccccccccccccccccccccccccccccccccc+
+    +cccccccccccccccccccccccccccccccccc+
+    ++++++++++++++++++++++++++++++++++++
+
+Call` render(string, fg, bg)` to render the string in the foreground color.
